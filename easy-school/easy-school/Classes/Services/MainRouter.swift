@@ -56,6 +56,9 @@ class MainRouter: Router {
                 self.showGameController(room)
             }
         }
+        roomVC.didBackTapped = {
+            self.navigationController.popViewController(animated: true)
+        }
         navigationController.pushViewController(roomVC, animated: true)
     }
     

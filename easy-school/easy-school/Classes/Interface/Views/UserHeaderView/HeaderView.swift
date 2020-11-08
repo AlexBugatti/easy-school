@@ -12,6 +12,7 @@ class HeaderView: NibView {
 
     var didTapSetting: (()->())?
     
+    @IBOutlet weak var stLabel: UILabel!
     @IBOutlet weak var containerView: UIView! {
         didSet {
             self.containerView.layer.cornerRadius = 20

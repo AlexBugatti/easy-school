@@ -18,6 +18,7 @@
                 <outlet property="containerInputView" destination="4Lr-Y7-O5f" id="Hot-19-oon"/>
                 <outlet property="inputTextView" destination="Psx-HE-PXY" id="q3F-3u-4eZ"/>
                 <outlet property="sendButton" destination="Z7e-s1-48e" id="b1v-FO-5wK"/>
+                <outlet property="tableView" destination="Rai-Ld-W25" id="kJU-4l-hpj"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -34,18 +35,6 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbv-LG-ysW">
-                                        <rect key="frame" x="370" y="20" width="24" height="24"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="24" id="4WI-f2-MSB"/>
-                                            <constraint firstAttribute="width" constant="24" id="EcU-sY-2Ow"/>
-                                        </constraints>
-                                        <state key="normal" title="Button" image="icons8-cancel-100"/>
-                                        <connections>
-                                            <action selector="onDidDismissTapped:" destination="-1" eventType="touchUpInside" id="ft4-ln-qhk"/>
-                                        </connections>
-                                    </button>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2wU-JG-ue2" userLabel="InputView">
                                         <rect key="frame" x="0.0" y="832" width="414" height="64"/>
                                         <subviews>
@@ -90,6 +79,9 @@
                                                     <constraint firstAttribute="width" constant="36" id="raC-Lv-gAQ"/>
                                                 </constraints>
                                                 <state key="normal" image="Rectangle 2"/>
+                                                <connections>
+                                                    <action selector="onDidSendTapped:" destination="-1" eventType="touchUpInside" id="QPf-uK-vXm"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -107,12 +99,32 @@
                                             <constraint firstAttribute="trailing" secondItem="Z7e-s1-48e" secondAttribute="trailing" constant="20" id="nlV-8i-sxo"/>
                                         </constraints>
                                     </view>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Rai-Ld-W25">
+                                        <rect key="frame" x="20" y="0.0" width="374" height="832"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableView>
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbv-LG-ysW">
+                                        <rect key="frame" x="370" y="40" width="24" height="24"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="4WI-f2-MSB"/>
+                                            <constraint firstAttribute="width" constant="24" id="EcU-sY-2Ow"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="icons8-cancel-100"/>
+                                        <connections>
+                                            <action selector="onDidDismissTapped:" destination="-1" eventType="touchUpInside" id="ft4-ln-qhk"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="nbv-LG-ysW" firstAttribute="top" secondItem="cjO-gf-Cmz" secondAttribute="top" constant="20" id="DTR-24-40d"/>
+                                    <constraint firstItem="nbv-LG-ysW" firstAttribute="top" secondItem="cjO-gf-Cmz" secondAttribute="top" constant="40" id="DTR-24-40d"/>
                                     <constraint firstAttribute="bottom" secondItem="2wU-JG-ue2" secondAttribute="bottom" id="Hm5-qf-jer"/>
                                     <constraint firstAttribute="trailing" secondItem="2wU-JG-ue2" secondAttribute="trailing" id="JP0-gi-T98"/>
+                                    <constraint firstItem="2wU-JG-ue2" firstAttribute="top" secondItem="Rai-Ld-W25" secondAttribute="bottom" id="KP7-T6-J1R"/>
+                                    <constraint firstItem="Rai-Ld-W25" firstAttribute="top" secondItem="cjO-gf-Cmz" secondAttribute="top" id="SWz-ug-7rj"/>
                                     <constraint firstAttribute="trailing" secondItem="nbv-LG-ysW" secondAttribute="trailing" constant="20" id="ezJ-FX-tPN"/>
+                                    <constraint firstAttribute="trailing" secondItem="Rai-Ld-W25" secondAttribute="trailing" constant="20" id="nEt-YQ-8bP"/>
+                                    <constraint firstItem="Rai-Ld-W25" firstAttribute="leading" secondItem="cjO-gf-Cmz" secondAttribute="leading" constant="20" id="oKb-aI-uFV"/>
                                     <constraint firstItem="2wU-JG-ue2" firstAttribute="leading" secondItem="cjO-gf-Cmz" secondAttribute="leading" id="z9i-iG-gp4"/>
                                 </constraints>
                             </view>

@@ -42,7 +42,7 @@
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QAF-np-BY7">
                     <rect key="frame" x="60" y="794.5" width="294" height="47.5"/>
                     <attributedString key="attributedText">
-                        <fragment content="It's Easy - всемирное сообщество, изучающее иностранный язык. Присоединяйся к нашему комьюнити и проводи врем веселее!">
+                        <fragment content="It's Easy - всемирное сообщество, изучающее иностранный язык. Присоединяйся к нашему комьюнити и проводи время веселее!">
                             <attributes>
                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                 <font key="NSFont" size="12" name="Roboto-Regular"/>

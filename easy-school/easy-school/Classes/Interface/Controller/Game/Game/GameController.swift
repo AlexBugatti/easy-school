@@ -14,6 +14,7 @@ class GameController: UIViewController {
     var didDismissTapped: (()->())?
     
     var room: Room
+    var steps: [String] = ["Ход игрока 1", "Ход игрока 2", "Ход игрока 3", "Голосование", "Вербовка"]
     var users: [User] = [] {
         didSet {
             self.collectionView?.reloadData()
@@ -44,6 +45,7 @@ class GameController: UIViewController {
     private lazy var chatView: ChatView = {
         var chatView = ChatView()
         chatView.alpha = 0
+        chatView.translatesAutoresizingMaskIntoConstraints = false
         
         return chatView
     }()
@@ -59,12 +61,10 @@ class GameController: UIViewController {
             self.keyboardView.layer.masksToBounds = true
         }
     }
+    var bottomConstraint: NSLayoutConstraint!
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        
-        self.chatView.frame = CGRect(x: 0, y: 0,
-                                     width: self.view.frame.width, height: self.view.frame.height)
     }
     
     override func viewDidLoad() {
@@ -88,11 +88,19 @@ class GameController: UIViewController {
         self.headerView.didTapSetting = {
             self.showSettingAlertController()
         }
+        
+        self.view.topAnchor.constraint(equalTo: self.chatView.topAnchor).isActive = true
+        self.view.leadingAnchor.constraint(equalTo: self.chatView.leadingAnchor).isActive = true
+        self.view.trailingAnchor.constraint(equalTo: self.chatView.trailingAnchor).isActive = true
+        self.bottomConstraint = self.view.bottomAnchor.constraint(equalTo: self.chatView.bottomAnchor)
+        self.bottomConstraint.isActive = true
     }
     
     private func showChat() {
-        UIView.animate(withDuration: 0.2) {
+        UIView.animate(withDuration: 0.2, animations: {
             self.chatView.alpha = 1
+        }) { (_) in
+            self.chatView.openKeyboard()
         }
     }
     
@@ -168,16 +176,16 @@ extension GameController {
         let center = NotificationCenter.default
         
         center.addObserver(with: UIViewController.keyboardWillShow) { payload in
+            self.bottomConstraint.constant = payload.endFrame.height
             UIView.animate(withDuration: 0.2) {
-                self.chatView.frame = CGRect.init(x: 0, y: 0,
-                width: self.view.frame.width, height: self.view.frame.height - payload.endFrame.height)
+                self.view.layoutIfNeeded()
             }
         }
         
         center.addObserver(with: UIViewController.keyboardWillHide) { payload in
+            self.bottomConstraint.constant = 0
             UIView.animate(withDuration: 0.2) {
-                self.chatView.frame = CGRect.init(x: 0, y: 0,
-                width: self.view.frame.width, height: self.view.frame.height)
+                self.view.layoutIfNeeded()
             }
         }
     }

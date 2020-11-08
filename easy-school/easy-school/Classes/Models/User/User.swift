@@ -19,4 +19,10 @@ class User {
         self.avatar = avatar
     }
     
+    static var current: User {
+        let alex = User(name: "Alexander", avatar: #imageLiteral(resourceName: "avatar"))
+        
+        return alex
+    }
+    
 }

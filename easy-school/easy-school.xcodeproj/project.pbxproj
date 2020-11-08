@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		FA97CDD925572F8D0006C3D0 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA97CDD825572F8D0006C3D0 /* HeaderView.swift */; };
 		FA97CDDB25572FA70006C3D0 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA97CDDA25572FA70006C3D0 /* HeaderView.xib */; };
+		FA97CDDE2557814F0006C3D0 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA97CDDD2557814F0006C3D0 /* Message.swift */; };
+		FA97CDE1255781E80006C3D0 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA97CDDF255781E70006C3D0 /* MessageCell.swift */; };
+		FA97CDE2255781E80006C3D0 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA97CDE0255781E70006C3D0 /* MessageCell.xib */; };
 		FAB0B16C2556BDC100C9A09F /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B15A2556BDC100C9A09F /* Roboto-Medium.ttf */; };
 		FAB0B16D2556BDC100C9A09F /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B15B2556BDC100C9A09F /* Roboto-Light.ttf */; };
 		FAB0B16E2556BDC100C9A09F /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B15C2556BDC100C9A09F /* RobotoCondensed-Bold.ttf */; };
@@ -72,6 +75,9 @@
 /* Begin PBXFileReference section */
 		FA97CDD825572F8D0006C3D0 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		FA97CDDA25572FA70006C3D0 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		FA97CDDD2557814F0006C3D0 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		FA97CDDF255781E70006C3D0 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		FA97CDE0255781E70006C3D0 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		FAB0B15A2556BDC100C9A09F /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		FAB0B15B2556BDC100C9A09F /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		FAB0B15C2556BDC100C9A09F /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
@@ -104,7 +110,7 @@
 		FAB0B1992557131600C9A09F /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
 		FAB0B19C255715EF00C9A09F /* SNR65_otf_easy_shrift_1.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SNR65_otf_easy_shrift_1.otf; sourceTree = "<group>"; };
 		FAB0B19D255715EF00C9A09F /* SNR65.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SNR65.otf; sourceTree = "<group>"; };
-		FAF642542555F5C100D22A28 /* easy-school.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "easy-school.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF642542555F5C100D22A28 /* EasyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF642572555F5C100D22A28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAF6425B2555F5C100D22A28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAF6425E2555F5C100D22A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -154,6 +160,14 @@
 			path = UserHeaderView;
 			sourceTree = "<group>";
 		};
+		FA97CDDC2557812D0006C3D0 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				FA97CDDD2557814F0006C3D0 /* Message.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
 		FAB0B1592556BDC100C9A09F /* roboto */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,6 +209,8 @@
 			children = (
 				FAB0B1802556C85D00C9A09F /* ChatView.swift */,
 				FAB0B1822556C87400C9A09F /* ChatView.xib */,
+				FA97CDDF255781E70006C3D0 /* MessageCell.swift */,
+				FA97CDE0255781E70006C3D0 /* MessageCell.xib */,
 			);
 			path = ChatView;
 			sourceTree = "<group>";
@@ -248,7 +264,7 @@
 		FAF642552555F5C100D22A28 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FAF642542555F5C100D22A28 /* easy-school.app */,
+				FAF642542555F5C100D22A28 /* EasyGame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -303,6 +319,7 @@
 		FAF6426E2555F8B800D22A28 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FA97CDDC2557812D0006C3D0 /* Message */,
 				FAF6429F25568E1100D22A28 /* Lang */,
 				FAF6429C25568D8B00D22A28 /* Room */,
 				FAF6429225568B8600D22A28 /* User */,
@@ -462,7 +479,7 @@
 			);
 			name = "easy-school";
 			productName = "easy-school";
-			productReference = FAF642542555F5C100D22A28 /* easy-school.app */;
+			productReference = FAF642542555F5C100D22A28 /* EasyGame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -521,6 +538,7 @@
 				FA97CDDB25572FA70006C3D0 /* HeaderView.xib in Resources */,
 				FAB0B198255710BB00C9A09F /* MainButton.xib in Resources */,
 				FAF642792555FC4500D22A28 /* AuthController.xib in Resources */,
+				FA97CDE2255781E80006C3D0 /* MessageCell.xib in Resources */,
 				FAB0B1792556BDC100C9A09F /* Roboto-Italic.ttf in Resources */,
 				FAB0B17B2556BDC100C9A09F /* Roboto-Bold.ttf in Resources */,
 				FAB0B1922556F88A00C9A09F /* PhotoSliderCell.xib in Resources */,
@@ -556,6 +574,7 @@
 				FAB0B1892556F71400C9A09F /* DetailProductController.swift in Sources */,
 				FAF642A125568E7100D22A28 /* Language.swift in Sources */,
 				FAF64285255676FC00D22A28 /* SettingsController.swift in Sources */,
+				FA97CDDE2557814F0006C3D0 /* Message.swift in Sources */,
 				FA97CDD925572F8D0006C3D0 /* HeaderView.swift in Sources */,
 				FAF6429025568B2500D22A28 /* GameController.swift in Sources */,
 				FAF6428B2556777300D22A28 /* RoomsController.swift in Sources */,
@@ -565,6 +584,7 @@
 				FAF6429825568CB600D22A28 /* RoomCell.swift in Sources */,
 				FAF642A52556B3B200D22A28 /* PlayerCell.swift in Sources */,
 				FAF6427C2555FC8300D22A28 /* Extension+UIViewController.swift in Sources */,
+				FA97CDE1255781E80006C3D0 /* MessageCell.swift in Sources */,
 				FAB0B1812556C85D00C9A09F /* ChatView.swift in Sources */,
 				FAF642802556739A00D22A28 /* MenuController.swift in Sources */,
 				FAF6429425568BC100D22A28 /* User.swift in Sources */,
@@ -717,14 +737,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HDC848MRAM;
 				INFOPLIST_FILE = "easy-school/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.bugatti.easy-school.easy-school";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = app.majorauto.studio.staff;
+				PRODUCT_NAME = EasyGame;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -735,14 +756,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HDC848MRAM;
 				INFOPLIST_FILE = "easy-school/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.bugatti.easy-school.easy-school";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = app.majorauto.studio.staff;
+				PRODUCT_NAME = EasyGame;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
