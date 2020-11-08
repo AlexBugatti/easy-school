@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RoomsController" customModule="easy_school" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="tdk-3A-Py7" id="dlO-4d-Pkg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tdk-3A-Py7">
+                    <rect key="frame" x="0.0" y="82" width="375" height="585"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5wo-45-JGF">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="подложка" translatesAutoresizingMaskIntoConstraints="NO" id="X7O-fo-NgZ">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E9N-MD-0i8">
+                            <rect key="frame" x="20" y="40" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="4mH-NP-Lbb"/>
+                                <constraint firstAttribute="height" constant="40" id="jWf-Bb-u7h"/>
+                            </constraints>
+                            <state key="normal" image="icons8-back-arrow-100"/>
+                            <connections>
+                                <action selector="onDidDismissTapped:" destination="-1" eventType="touchUpInside" id="f0g-J3-vqz"/>
+                            </connections>
+                        </button>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="выбрать комнату" translatesAutoresizingMaskIntoConstraints="NO" id="1cA-n8-BrG">
+                            <rect key="frame" x="80" y="20" width="215" height="100"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="100" id="4RR-eD-2t8"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="1cA-n8-BrG" secondAttribute="trailing" constant="80" id="0XV-Wx-XxN"/>
+                        <constraint firstItem="1cA-n8-BrG" firstAttribute="centerY" secondItem="5wo-45-JGF" secondAttribute="centerY" constant="10" id="30v-6Q-Uf2"/>
+                        <constraint firstItem="X7O-fo-NgZ" firstAttribute="top" secondItem="5wo-45-JGF" secondAttribute="top" id="BKu-u2-54m"/>
+                        <constraint firstAttribute="bottom" secondItem="X7O-fo-NgZ" secondAttribute="bottom" id="Fba-mT-MdE"/>
+                        <constraint firstAttribute="trailing" secondItem="X7O-fo-NgZ" secondAttribute="trailing" id="GbQ-Qa-xHL"/>
+                        <constraint firstItem="X7O-fo-NgZ" firstAttribute="leading" secondItem="5wo-45-JGF" secondAttribute="leading" id="KLa-7B-sLw"/>
+                        <constraint firstItem="E9N-MD-0i8" firstAttribute="centerY" secondItem="5wo-45-JGF" secondAttribute="centerY" id="OCt-0x-LDK"/>
+                        <constraint firstItem="1cA-n8-BrG" firstAttribute="leading" secondItem="E9N-MD-0i8" secondAttribute="trailing" constant="20" id="PzI-t3-Mju"/>
+                        <constraint firstAttribute="height" constant="120" id="keL-wy-tm9"/>
+                        <constraint firstItem="E9N-MD-0i8" firstAttribute="leading" secondItem="5wo-45-JGF" secondAttribute="leading" constant="20" id="n9B-A8-mpQ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="5wo-45-JGF" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="GJW-50-MHA"/>
+                <constraint firstItem="5wo-45-JGF" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="Id7-6h-66l"/>
+                <constraint firstItem="tdk-3A-Py7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="fcK-0f-fLq"/>
+                <constraint firstAttribute="bottom" secondItem="tdk-3A-Py7" secondAttribute="bottom" id="kEB-BS-KTS"/>
+                <constraint firstItem="tdk-3A-Py7" firstAttribute="top" secondItem="E9N-MD-0i8" secondAttribute="bottom" constant="2" id="o1n-k2-oFD"/>
+                <constraint firstItem="tdk-3A-Py7" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="rHk-ge-oMi"/>
+                <constraint firstItem="5wo-45-JGF" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="xaH-5B-1Cc"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="136.80000000000001" y="100.29985007496252"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icons8-back-arrow-100" width="100" height="100"/>
+        <image name="выбрать комнату" width="255" height="139"/>
+        <image name="подложка" width="375" height="170"/>
+    </resources>
+</document>

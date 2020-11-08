@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AuthController" customModule="easy_school" customModuleProvider="target">
+            <connections>
+                <outlet property="authButton" destination="04Y-6P-WPg" id="gDw-rK-PsJ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo_krasny" translatesAutoresizingMaskIntoConstraints="NO" id="0NY-Ii-mQ2">
+                    <rect key="frame" x="147" y="213" width="120" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="Jr2-vt-C7Z"/>
+                        <constraint firstAttribute="width" constant="120" id="RpB-dN-nJR"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="001plashki" translatesAutoresizingMaskIntoConstraints="NO" id="rrO-Dk-Jjr">
+                    <rect key="frame" x="0.0" y="368" width="414" height="160"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="160" id="CnR-gg-djT"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="04Y-6P-WPg" customClass="MainButton" customModule="easy_school" customModuleProvider="target">
+                    <rect key="frame" x="20" y="413" width="374" height="70"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="w4R-Pb-5EX"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QAF-np-BY7">
+                    <rect key="frame" x="60" y="794.5" width="294" height="47.5"/>
+                    <attributedString key="attributedText">
+                        <fragment content="It's Easy - всемирное сообщество, изучающее иностранный язык. Присоединяйся к нашему комьюнити и проводи врем веселее!">
+                            <attributes>
+                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <font key="NSFont" size="12" name="Roboto-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="04Y-6P-WPg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="25T-ho-dxR"/>
+                <constraint firstItem="04Y-6P-WPg" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" constant="-20" id="2lh-bX-sco"/>
+                <constraint firstItem="0NY-Ii-mQ2" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="DJv-bt-TeK"/>
+                <constraint firstItem="rrO-Dk-Jjr" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="IgC-YP-kpS"/>
+                <constraint firstItem="rrO-Dk-Jjr" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="IrT-K2-MFp"/>
+                <constraint firstItem="QAF-np-BY7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="60" id="Kzh-pY-701"/>
+                <constraint firstItem="04Y-6P-WPg" firstAttribute="top" secondItem="0NY-Ii-mQ2" secondAttribute="bottom" constant="80" id="Mil-Vu-uea"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="QAF-np-BY7" secondAttribute="bottom" constant="20" id="sfD-3v-WZM"/>
+                <constraint firstItem="04Y-6P-WPg" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="soW-em-6yJ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="QAF-np-BY7" secondAttribute="trailing" constant="60" id="syh-6T-Pau"/>
+                <constraint firstItem="rrO-Dk-Jjr" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="vx8-yP-7dT"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="100.44642857142857"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="001plashki" width="1125" height="2436"/>
+        <image name="Logo_krasny" width="596" height="842"/>
+    </resources>
+</document>

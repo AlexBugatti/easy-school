@@ -7,14 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA97CDD925572F8D0006C3D0 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA97CDD825572F8D0006C3D0 /* HeaderView.swift */; };
+		FA97CDDB25572FA70006C3D0 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA97CDDA25572FA70006C3D0 /* HeaderView.xib */; };
+		FAB0B16C2556BDC100C9A09F /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B15A2556BDC100C9A09F /* Roboto-Medium.ttf */; };
+		FAB0B16D2556BDC100C9A09F /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B15B2556BDC100C9A09F /* Roboto-Light.ttf */; };
+		FAB0B16E2556BDC100C9A09F /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B15C2556BDC100C9A09F /* RobotoCondensed-Bold.ttf */; };
+		FAB0B16F2556BDC100C9A09F /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B15D2556BDC100C9A09F /* RobotoCondensed-Light.ttf */; };
+		FAB0B1702556BDC100C9A09F /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B15E2556BDC100C9A09F /* Roboto-Regular.ttf */; };
+		FAB0B1712556BDC100C9A09F /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B15F2556BDC100C9A09F /* Roboto-MediumItalic.ttf */; };
+		FAB0B1722556BDC100C9A09F /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B1602556BDC100C9A09F /* RobotoCondensed-Italic.ttf */; };
+		FAB0B1732556BDC100C9A09F /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B1612556BDC100C9A09F /* RobotoCondensed-BoldItalic.ttf */; };
+		FAB0B1742556BDC100C9A09F /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B1622556BDC100C9A09F /* RobotoCondensed-LightItalic.ttf */; };
+		FAB0B1752556BDC100C9A09F /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B1632556BDC100C9A09F /* Roboto-ThinItalic.ttf */; };
+		FAB0B1762556BDC100C9A09F /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B1642556BDC100C9A09F /* RobotoCondensed-Regular.ttf */; };
+		FAB0B1772556BDC100C9A09F /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B1652556BDC100C9A09F /* Roboto-BoldItalic.ttf */; };
+		FAB0B1782556BDC100C9A09F /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B1662556BDC100C9A09F /* Roboto-LightItalic.ttf */; };
+		FAB0B1792556BDC100C9A09F /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B1672556BDC100C9A09F /* Roboto-Italic.ttf */; };
+		FAB0B17A2556BDC100C9A09F /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B1682556BDC100C9A09F /* Roboto-BlackItalic.ttf */; };
+		FAB0B17B2556BDC100C9A09F /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B1692556BDC100C9A09F /* Roboto-Bold.ttf */; };
+		FAB0B17C2556BDC100C9A09F /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B16A2556BDC100C9A09F /* Roboto-Thin.ttf */; };
+		FAB0B17D2556BDC100C9A09F /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B16B2556BDC100C9A09F /* Roboto-Black.ttf */; };
+		FAB0B1812556C85D00C9A09F /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0B1802556C85D00C9A09F /* ChatView.swift */; };
+		FAB0B1832556C87400C9A09F /* ChatView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B1822556C87400C9A09F /* ChatView.xib */; };
+		FAB0B1852556E6CC00C9A09F /* Extension+KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0B1842556E6CC00C9A09F /* Extension+KeyboardObserver.swift */; };
+		FAB0B1892556F71400C9A09F /* DetailProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0B1872556F71200C9A09F /* DetailProductController.swift */; };
+		FAB0B18A2556F71400C9A09F /* DetailProductController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B1882556F71300C9A09F /* DetailProductController.xib */; };
+		FAB0B1902556F88A00C9A09F /* PhotoSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0B18C2556F88A00C9A09F /* PhotoSlider.swift */; };
+		FAB0B1912556F88A00C9A09F /* PhotoSlider.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B18D2556F88A00C9A09F /* PhotoSlider.xib */; };
+		FAB0B1922556F88A00C9A09F /* PhotoSliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B18E2556F88A00C9A09F /* PhotoSliderCell.xib */; };
+		FAB0B1932556F88A00C9A09F /* PhotoSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0B18F2556F88A00C9A09F /* PhotoSliderCell.swift */; };
+		FAB0B1962557109700C9A09F /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0B1952557109600C9A09F /* MainButton.swift */; };
+		FAB0B198255710BB00C9A09F /* MainButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B197255710BB00C9A09F /* MainButton.xib */; };
+		FAB0B19A2557131600C9A09F /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0B1992557131600C9A09F /* Extension+UIView.swift */; };
+		FAB0B19E255715EF00C9A09F /* SNR65_otf_easy_shrift_1.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B19C255715EF00C9A09F /* SNR65_otf_easy_shrift_1.otf */; };
+		FAB0B19F255715EF00C9A09F /* SNR65.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAB0B19D255715EF00C9A09F /* SNR65.otf */; };
 		FAF642582555F5C100D22A28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF642572555F5C100D22A28 /* AppDelegate.swift */; };
 		FAF6425C2555F5C100D22A28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6425B2555F5C100D22A28 /* ViewController.swift */; };
 		FAF6425F2555F5C100D22A28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF6425D2555F5C100D22A28 /* Main.storyboard */; };
 		FAF642612555F5C700D22A28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF642602555F5C700D22A28 /* Assets.xcassets */; };
 		FAF642642555F5C700D22A28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF642622555F5C700D22A28 /* LaunchScreen.storyboard */; };
+		FAF642732555F9C200D22A28 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF642722555F9C200D22A28 /* MainRouter.swift */; };
+		FAF642782555FC4500D22A28 /* AuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF642762555FC4500D22A28 /* AuthController.swift */; };
+		FAF642792555FC4500D22A28 /* AuthController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF642772555FC4500D22A28 /* AuthController.xib */; };
+		FAF6427C2555FC8300D22A28 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6427B2555FC8300D22A28 /* Extension+UIViewController.swift */; };
+		FAF642802556739A00D22A28 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6427E2556739A00D22A28 /* MenuController.swift */; };
+		FAF642812556739A00D22A28 /* MenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF6427F2556739A00D22A28 /* MenuController.xib */; };
+		FAF64285255676FC00D22A28 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF64283255676FC00D22A28 /* SettingsController.swift */; };
+		FAF64286255676FC00D22A28 /* SettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF64284255676FC00D22A28 /* SettingsController.xib */; };
+		FAF6428B2556777300D22A28 /* RoomsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF642892556777300D22A28 /* RoomsController.swift */; };
+		FAF6428C2556777300D22A28 /* RoomsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF6428A2556777300D22A28 /* RoomsController.xib */; };
+		FAF6429025568B2500D22A28 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6428E25568B2500D22A28 /* GameController.swift */; };
+		FAF6429125568B2500D22A28 /* GameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF6428F25568B2500D22A28 /* GameController.xib */; };
+		FAF6429425568BC100D22A28 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6429325568BC100D22A28 /* User.swift */; };
+		FAF6429825568CB600D22A28 /* RoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6429625568CB600D22A28 /* RoomCell.swift */; };
+		FAF6429925568CB600D22A28 /* RoomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF6429725568CB600D22A28 /* RoomCell.xib */; };
+		FAF6429B25568D1A00D22A28 /* Extension+NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6429A25568D1A00D22A28 /* Extension+NibView.swift */; };
+		FAF6429E25568D9A00D22A28 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6429D25568D9A00D22A28 /* Room.swift */; };
+		FAF642A125568E7100D22A28 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF642A025568E7100D22A28 /* Language.swift */; };
+		FAF642A52556B3B200D22A28 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF642A32556B3B200D22A28 /* PlayerCell.swift */; };
+		FAF642A62556B3B200D22A28 /* PlayerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF642A42556B3B200D22A28 /* PlayerCell.xib */; };
+		FAF642A82556B8D700D22A28 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF642A72556B8D700D22A28 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA97CDD825572F8D0006C3D0 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		FA97CDDA25572FA70006C3D0 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		FAB0B15A2556BDC100C9A09F /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		FAB0B15B2556BDC100C9A09F /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		FAB0B15C2556BDC100C9A09F /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		FAB0B15D2556BDC100C9A09F /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		FAB0B15E2556BDC100C9A09F /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		FAB0B15F2556BDC100C9A09F /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		FAB0B1602556BDC100C9A09F /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		FAB0B1612556BDC100C9A09F /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FAB0B1622556BDC100C9A09F /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		FAB0B1632556BDC100C9A09F /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		FAB0B1642556BDC100C9A09F /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		FAB0B1652556BDC100C9A09F /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FAB0B1662556BDC100C9A09F /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		FAB0B1672556BDC100C9A09F /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		FAB0B1682556BDC100C9A09F /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		FAB0B1692556BDC100C9A09F /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		FAB0B16A2556BDC100C9A09F /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		FAB0B16B2556BDC100C9A09F /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		FAB0B1802556C85D00C9A09F /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		FAB0B1822556C87400C9A09F /* ChatView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatView.xib; sourceTree = "<group>"; };
+		FAB0B1842556E6CC00C9A09F /* Extension+KeyboardObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+KeyboardObserver.swift"; sourceTree = "<group>"; };
+		FAB0B1872556F71200C9A09F /* DetailProductController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailProductController.swift; sourceTree = "<group>"; };
+		FAB0B1882556F71300C9A09F /* DetailProductController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailProductController.xib; sourceTree = "<group>"; };
+		FAB0B18C2556F88A00C9A09F /* PhotoSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSlider.swift; sourceTree = "<group>"; };
+		FAB0B18D2556F88A00C9A09F /* PhotoSlider.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoSlider.xib; sourceTree = "<group>"; };
+		FAB0B18E2556F88A00C9A09F /* PhotoSliderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoSliderCell.xib; sourceTree = "<group>"; };
+		FAB0B18F2556F88A00C9A09F /* PhotoSliderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSliderCell.swift; sourceTree = "<group>"; };
+		FAB0B1952557109600C9A09F /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
+		FAB0B197255710BB00C9A09F /* MainButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainButton.xib; sourceTree = "<group>"; };
+		FAB0B1992557131600C9A09F /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
+		FAB0B19C255715EF00C9A09F /* SNR65_otf_easy_shrift_1.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SNR65_otf_easy_shrift_1.otf; sourceTree = "<group>"; };
+		FAB0B19D255715EF00C9A09F /* SNR65.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SNR65.otf; sourceTree = "<group>"; };
 		FAF642542555F5C100D22A28 /* easy-school.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "easy-school.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF642572555F5C100D22A28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAF6425B2555F5C100D22A28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +111,27 @@
 		FAF642602555F5C700D22A28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAF642632555F5C700D22A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAF642652555F5C700D22A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF642722555F9C200D22A28 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		FAF642762555FC4500D22A28 /* AuthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthController.swift; sourceTree = "<group>"; };
+		FAF642772555FC4500D22A28 /* AuthController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthController.xib; sourceTree = "<group>"; };
+		FAF6427B2555FC8300D22A28 /* Extension+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = "<group>"; };
+		FAF6427E2556739A00D22A28 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		FAF6427F2556739A00D22A28 /* MenuController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuController.xib; sourceTree = "<group>"; };
+		FAF64283255676FC00D22A28 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		FAF64284255676FC00D22A28 /* SettingsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsController.xib; sourceTree = "<group>"; };
+		FAF642892556777300D22A28 /* RoomsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsController.swift; sourceTree = "<group>"; };
+		FAF6428A2556777300D22A28 /* RoomsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomsController.xib; sourceTree = "<group>"; };
+		FAF6428E25568B2500D22A28 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		FAF6428F25568B2500D22A28 /* GameController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameController.xib; sourceTree = "<group>"; };
+		FAF6429325568BC100D22A28 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FAF6429625568CB600D22A28 /* RoomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCell.swift; sourceTree = "<group>"; };
+		FAF6429725568CB600D22A28 /* RoomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomCell.xib; sourceTree = "<group>"; };
+		FAF6429A25568D1A00D22A28 /* Extension+NibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+NibView.swift"; sourceTree = "<group>"; };
+		FAF6429D25568D9A00D22A28 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		FAF642A025568E7100D22A28 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		FAF642A32556B3B200D22A28 /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		FAF642A42556B3B200D22A28 /* PlayerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerCell.xib; sourceTree = "<group>"; };
+		FAF642A72556B8D700D22A28 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +145,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA97CDD725572F600006C3D0 /* UserHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				FA97CDD825572F8D0006C3D0 /* HeaderView.swift */,
+				FA97CDDA25572FA70006C3D0 /* HeaderView.xib */,
+			);
+			path = UserHeaderView;
+			sourceTree = "<group>";
+		};
+		FAB0B1592556BDC100C9A09F /* roboto */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0B15A2556BDC100C9A09F /* Roboto-Medium.ttf */,
+				FAB0B15B2556BDC100C9A09F /* Roboto-Light.ttf */,
+				FAB0B15C2556BDC100C9A09F /* RobotoCondensed-Bold.ttf */,
+				FAB0B15D2556BDC100C9A09F /* RobotoCondensed-Light.ttf */,
+				FAB0B15E2556BDC100C9A09F /* Roboto-Regular.ttf */,
+				FAB0B15F2556BDC100C9A09F /* Roboto-MediumItalic.ttf */,
+				FAB0B1602556BDC100C9A09F /* RobotoCondensed-Italic.ttf */,
+				FAB0B1612556BDC100C9A09F /* RobotoCondensed-BoldItalic.ttf */,
+				FAB0B1622556BDC100C9A09F /* RobotoCondensed-LightItalic.ttf */,
+				FAB0B1632556BDC100C9A09F /* Roboto-ThinItalic.ttf */,
+				FAB0B1642556BDC100C9A09F /* RobotoCondensed-Regular.ttf */,
+				FAB0B1652556BDC100C9A09F /* Roboto-BoldItalic.ttf */,
+				FAB0B1662556BDC100C9A09F /* Roboto-LightItalic.ttf */,
+				FAB0B1672556BDC100C9A09F /* Roboto-Italic.ttf */,
+				FAB0B1682556BDC100C9A09F /* Roboto-BlackItalic.ttf */,
+				FAB0B1692556BDC100C9A09F /* Roboto-Bold.ttf */,
+				FAB0B16A2556BDC100C9A09F /* Roboto-Thin.ttf */,
+				FAB0B16B2556BDC100C9A09F /* Roboto-Black.ttf */,
+			);
+			path = roboto;
+			sourceTree = "<group>";
+		};
+		FAB0B17E2556C83400C9A09F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA97CDD725572F600006C3D0 /* UserHeaderView */,
+				FAB0B19425570FEB00C9A09F /* MainButton */,
+				FAB0B18B2556F88A00C9A09F /* PhotoSlider */,
+				FAB0B17F2556C83B00C9A09F /* ChatView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FAB0B17F2556C83B00C9A09F /* ChatView */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0B1802556C85D00C9A09F /* ChatView.swift */,
+				FAB0B1822556C87400C9A09F /* ChatView.xib */,
+			);
+			path = ChatView;
+			sourceTree = "<group>";
+		};
+		FAB0B1862556F63E00C9A09F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0B1872556F71200C9A09F /* DetailProductController.swift */,
+				FAB0B1882556F71300C9A09F /* DetailProductController.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FAB0B18B2556F88A00C9A09F /* PhotoSlider */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0B18C2556F88A00C9A09F /* PhotoSlider.swift */,
+				FAB0B18D2556F88A00C9A09F /* PhotoSlider.xib */,
+				FAB0B18E2556F88A00C9A09F /* PhotoSliderCell.xib */,
+				FAB0B18F2556F88A00C9A09F /* PhotoSliderCell.swift */,
+			);
+			path = PhotoSlider;
+			sourceTree = "<group>";
+		};
+		FAB0B19425570FEB00C9A09F /* MainButton */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0B1952557109600C9A09F /* MainButton.swift */,
+				FAB0B197255710BB00C9A09F /* MainButton.xib */,
+			);
+			path = MainButton;
+			sourceTree = "<group>";
+		};
+		FAB0B19B255715EF00C9A09F /* SansRounded */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0B19C255715EF00C9A09F /* SNR65_otf_easy_shrift_1.otf */,
+				FAB0B19D255715EF00C9A09F /* SNR65.otf */,
+			);
+			path = SansRounded;
+			sourceTree = "<group>";
+		};
 		FAF6424B2555F5C100D22A28 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +256,9 @@
 		FAF642562555F5C100D22A28 /* easy-school */ = {
 			isa = PBXGroup;
 			children = (
+				FAF642702555F8D300D22A28 /* Support */,
+				FAF6426F2555F8C900D22A28 /* Resources */,
+				FAF6426B2555F89100D22A28 /* Classes */,
 				FAF642572555F5C100D22A28 /* AppDelegate.swift */,
 				FAF6425B2555F5C100D22A28 /* ViewController.swift */,
 				FAF6425D2555F5C100D22A28 /* Main.storyboard */,
@@ -62,6 +267,182 @@
 				FAF642652555F5C700D22A28 /* Info.plist */,
 			);
 			path = "easy-school";
+			sourceTree = "<group>";
+		};
+		FAF6426B2555F89100D22A28 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FAF642712555F8FE00D22A28 /* Services */,
+				FAF6426E2555F8B800D22A28 /* Models */,
+				FAF6426D2555F8AD00D22A28 /* Extensions */,
+				FAF6426C2555F8A400D22A28 /* Interface */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FAF6426C2555F8A400D22A28 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0B17E2556C83400C9A09F /* Views */,
+				FAF642742555FC1F00D22A28 /* Controller */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		FAF6426D2555F8AD00D22A28 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FAF6427B2555FC8300D22A28 /* Extension+UIViewController.swift */,
+				FAF6429A25568D1A00D22A28 /* Extension+NibView.swift */,
+				FAB0B1842556E6CC00C9A09F /* Extension+KeyboardObserver.swift */,
+				FAB0B1992557131600C9A09F /* Extension+UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FAF6426E2555F8B800D22A28 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAF6429F25568E1100D22A28 /* Lang */,
+				FAF6429C25568D8B00D22A28 /* Room */,
+				FAF6429225568B8600D22A28 /* User */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FAF6426F2555F8C900D22A28 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0B1592556BDC100C9A09F /* roboto */,
+				FAB0B19B255715EF00C9A09F /* SansRounded */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FAF642702555F8D300D22A28 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				FAF642A72556B8D700D22A28 /* Constants.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		FAF642712555F8FE00D22A28 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FAF642722555F9C200D22A28 /* MainRouter.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FAF642742555FC1F00D22A28 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0B1862556F63E00C9A09F /* Profile */,
+				FAF642872556774800D22A28 /* Game */,
+				FAF64282255676DD00D22A28 /* Settings */,
+				FAF6427D2556735F00D22A28 /* Menu */,
+				FAF642752555FC2E00D22A28 /* Auth */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FAF642752555FC2E00D22A28 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				FAF642762555FC4500D22A28 /* AuthController.swift */,
+				FAF642772555FC4500D22A28 /* AuthController.xib */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		FAF6427D2556735F00D22A28 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				FAF6427E2556739A00D22A28 /* MenuController.swift */,
+				FAF6427F2556739A00D22A28 /* MenuController.xib */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		FAF64282255676DD00D22A28 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FAF64283255676FC00D22A28 /* SettingsController.swift */,
+				FAF64284255676FC00D22A28 /* SettingsController.xib */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		FAF642872556774800D22A28 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				FAF6428D25568AFD00D22A28 /* Game */,
+				FAF642882556775500D22A28 /* Rooms */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		FAF642882556775500D22A28 /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				FAF6429525568C9600D22A28 /* cells */,
+				FAF642892556777300D22A28 /* RoomsController.swift */,
+				FAF6428A2556777300D22A28 /* RoomsController.xib */,
+			);
+			path = Rooms;
+			sourceTree = "<group>";
+		};
+		FAF6428D25568AFD00D22A28 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				FAF642A22556B36B00D22A28 /* PlayerCell */,
+				FAF6428E25568B2500D22A28 /* GameController.swift */,
+				FAF6428F25568B2500D22A28 /* GameController.xib */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		FAF6429225568B8600D22A28 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				FAF6429325568BC100D22A28 /* User.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		FAF6429525568C9600D22A28 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				FAF6429625568CB600D22A28 /* RoomCell.swift */,
+				FAF6429725568CB600D22A28 /* RoomCell.xib */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		FAF6429C25568D8B00D22A28 /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				FAF6429D25568D9A00D22A28 /* Room.swift */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		FAF6429F25568E1100D22A28 /* Lang */ = {
+			isa = PBXGroup;
+			children = (
+				FAF642A025568E7100D22A28 /* Language.swift */,
+			);
+			path = Lang;
+			sourceTree = "<group>";
+		};
+		FAF642A22556B36B00D22A28 /* PlayerCell */ = {
+			isa = PBXGroup;
+			children = (
+				FAF642A32556B3B200D22A28 /* PlayerCell.swift */,
+				FAF642A42556B3B200D22A28 /* PlayerCell.xib */,
+			);
+			path = PlayerCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +503,42 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB0B1752556BDC100C9A09F /* Roboto-ThinItalic.ttf in Resources */,
+				FAB0B1742556BDC100C9A09F /* RobotoCondensed-LightItalic.ttf in Resources */,
 				FAF642642555F5C700D22A28 /* LaunchScreen.storyboard in Resources */,
+				FAF6429125568B2500D22A28 /* GameController.xib in Resources */,
+				FAB0B1732556BDC100C9A09F /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				FAB0B16D2556BDC100C9A09F /* Roboto-Light.ttf in Resources */,
+				FAF642812556739A00D22A28 /* MenuController.xib in Resources */,
+				FAB0B1832556C87400C9A09F /* ChatView.xib in Resources */,
+				FAB0B16F2556BDC100C9A09F /* RobotoCondensed-Light.ttf in Resources */,
+				FAF6428C2556777300D22A28 /* RoomsController.xib in Resources */,
+				FAB0B1762556BDC100C9A09F /* RobotoCondensed-Regular.ttf in Resources */,
+				FAB0B1722556BDC100C9A09F /* RobotoCondensed-Italic.ttf in Resources */,
+				FAB0B19F255715EF00C9A09F /* SNR65.otf in Resources */,
+				FAB0B17D2556BDC100C9A09F /* Roboto-Black.ttf in Resources */,
+				FAB0B1782556BDC100C9A09F /* Roboto-LightItalic.ttf in Resources */,
+				FA97CDDB25572FA70006C3D0 /* HeaderView.xib in Resources */,
+				FAB0B198255710BB00C9A09F /* MainButton.xib in Resources */,
+				FAF642792555FC4500D22A28 /* AuthController.xib in Resources */,
+				FAB0B1792556BDC100C9A09F /* Roboto-Italic.ttf in Resources */,
+				FAB0B17B2556BDC100C9A09F /* Roboto-Bold.ttf in Resources */,
+				FAB0B1922556F88A00C9A09F /* PhotoSliderCell.xib in Resources */,
+				FAB0B1772556BDC100C9A09F /* Roboto-BoldItalic.ttf in Resources */,
 				FAF642612555F5C700D22A28 /* Assets.xcassets in Resources */,
+				FAB0B1912556F88A00C9A09F /* PhotoSlider.xib in Resources */,
+				FAB0B17C2556BDC100C9A09F /* Roboto-Thin.ttf in Resources */,
+				FAF64286255676FC00D22A28 /* SettingsController.xib in Resources */,
+				FAB0B17A2556BDC100C9A09F /* Roboto-BlackItalic.ttf in Resources */,
 				FAF6425F2555F5C100D22A28 /* Main.storyboard in Resources */,
+				FAB0B16C2556BDC100C9A09F /* Roboto-Medium.ttf in Resources */,
+				FAF642A62556B3B200D22A28 /* PlayerCell.xib in Resources */,
+				FAB0B19E255715EF00C9A09F /* SNR65_otf_easy_shrift_1.otf in Resources */,
+				FAB0B1712556BDC100C9A09F /* Roboto-MediumItalic.ttf in Resources */,
+				FAB0B1702556BDC100C9A09F /* Roboto-Regular.ttf in Resources */,
+				FAB0B16E2556BDC100C9A09F /* RobotoCondensed-Bold.ttf in Resources */,
+				FAB0B18A2556F71400C9A09F /* DetailProductController.xib in Resources */,
+				FAF6429925568CB600D22A28 /* RoomCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +550,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF6425C2555F5C100D22A28 /* ViewController.swift in Sources */,
+				FAF642782555FC4500D22A28 /* AuthController.swift in Sources */,
+				FAB0B19A2557131600C9A09F /* Extension+UIView.swift in Sources */,
 				FAF642582555F5C100D22A28 /* AppDelegate.swift in Sources */,
+				FAB0B1892556F71400C9A09F /* DetailProductController.swift in Sources */,
+				FAF642A125568E7100D22A28 /* Language.swift in Sources */,
+				FAF64285255676FC00D22A28 /* SettingsController.swift in Sources */,
+				FA97CDD925572F8D0006C3D0 /* HeaderView.swift in Sources */,
+				FAF6429025568B2500D22A28 /* GameController.swift in Sources */,
+				FAF6428B2556777300D22A28 /* RoomsController.swift in Sources */,
+				FAF642A82556B8D700D22A28 /* Constants.swift in Sources */,
+				FAB0B1932556F88A00C9A09F /* PhotoSliderCell.swift in Sources */,
+				FAF6429E25568D9A00D22A28 /* Room.swift in Sources */,
+				FAF6429825568CB600D22A28 /* RoomCell.swift in Sources */,
+				FAF642A52556B3B200D22A28 /* PlayerCell.swift in Sources */,
+				FAF6427C2555FC8300D22A28 /* Extension+UIViewController.swift in Sources */,
+				FAB0B1812556C85D00C9A09F /* ChatView.swift in Sources */,
+				FAF642802556739A00D22A28 /* MenuController.swift in Sources */,
+				FAF6429425568BC100D22A28 /* User.swift in Sources */,
+				FAF6429B25568D1A00D22A28 /* Extension+NibView.swift in Sources */,
+				FAB0B1962557109700C9A09F /* MainButton.swift in Sources */,
+				FAB0B1902556F88A00C9A09F /* PhotoSlider.swift in Sources */,
+				FAB0B1852556E6CC00C9A09F /* Extension+KeyboardObserver.swift in Sources */,
+				FAF642732555F9C200D22A28 /* MainRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
